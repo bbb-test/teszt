@@ -9,7 +9,6 @@ uses
 type
   TForm1 = class(TForm)
     Button1: TButton;
-    Edit1: TEdit;
     ColorBox1: TColorBox;
     procedure Button1Click(Sender: TObject);
     procedure ColorBox1Change(Sender: TObject);
@@ -28,7 +27,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  self.Caption := Edit1.Text;
+//  self.Caption := Edit1.Text;
 end;
 
 procedure TForm1.ColorBox1Change(Sender: TObject);

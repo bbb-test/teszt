@@ -1,8 +1,8 @@
 object Form1: TForm1
   Left = 505
   Top = 231
-  Width = 317
-  Height = 206
+  Width = 167
+  Height = 143
   Caption = 'Form1'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -14,29 +14,21 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Button1: TButton
-    Left = 104
-    Top = 112
+    Left = 40
+    Top = 56
     Width = 75
     Height = 25
     Caption = 'OK'
     TabOrder = 0
     OnClick = Button1Click
   end
-  object Edit1: TEdit
-    Left = 80
-    Top = 80
-    Width = 121
-    Height = 21
-    TabOrder = 1
-    Text = 'Caption'
-  end
   object ColorBox1: TColorBox
-    Left = 80
-    Top = 48
+    Left = 16
+    Top = 16
     Width = 121
     Height = 22
     ItemHeight = 16
-    TabOrder = 2
+    TabOrder = 1
     OnChange = ColorBox1Change
   end
 end
