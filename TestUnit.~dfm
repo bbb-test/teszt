@@ -30,13 +30,4 @@ object Form1: TForm1
     TabOrder = 1
     Text = 'Caption'
   end
-  object ColorBox1: TColorBox
-    Left = 80
-    Top = 48
-    Width = 121
-    Height = 22
-    ItemHeight = 16
-    TabOrder = 2
-    OnChange = ColorBox1Change
-  end
 end
